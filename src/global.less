@@ -1,0 +1,146 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+//后加
+.ant-pro-global-header-trigger{
+  display: none
+}
+.ant-btn{
+  border:1px solid rgba(51,153,255,1);
+  color:rgba(51,153,255,1);
+}
+.ant-btn-link{
+  border:none
+}
+.ant-btn-primary{
+  background-color:rgba(51,153,255,1);
+  color:rgba(255,255,255,1);
+}
+.ant-pro-sider-menu-logo{
+  height: 140px;
+  padding:0;
+  a{
+    display: block;
+  }
+}
+.ant-pro-sider-menu-sider{
+  min-width: 156px!important;
+  width:156px!important;
+  flex: 0 0 156px!important;
+  background:rgba(75,130,250,1);
+}
+.ant-pro-sider-menu-logo{
+  background:rgba(75,130,250,1);
+
+}
+.ant-menu-item-selected{
+  background: #306FF7!important;
+}
+.ant-menu{
+  background:rgba(75,130,250,1);
+
+}
+.ant-pro-sider-menu-logo{
+  padding-left:0;
+}
+.ant-table-body{
+  td{
+  border-bottom: 0!important
+    
+  }
+  th{
+    background: #fff!important;
+  }
+}
+
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+	background-color: #F7F6FF!important;
+}
+.ant-table-body .ant-table-row-hover{
+	background: #F7F6FF!important;
+}
+.ant-table-body .ant-table-row-hover>td{
+	background: #F7F6FF!important;
+}
+.ant-layout{
+  background: #F7F6FF!important;
+}
+.ant-table-thead > tr > th {
+  border-bottom: 1px solid #F7F6FF;
+}
+.ant-notification-notice-message{
+  font-size: 14px!important;
+  width:140px!important;
+}
+#logo{
+  pointer-events:none
+}
+.ant-layout-footer{
+  background: none;
+}
+.anticon-download{
+  display: none
+}
+.anticon-question-circle{
+  display: none
+}
+.antd-pro-components-global-header-index-action{
+  margin-right: 20px;
+  font-weight: 700;
+}
+.ant-popover-inner-content{
+  .ant-form-item{
+    margin-bottom: 0!important;
+  }
+}
+.ant-table-footer{
+  background: white;
+}
+.ant-dropdown-menu-item{
+  width:120px!important;
+  min-width:120px!important
+}
